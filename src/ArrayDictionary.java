@@ -53,10 +53,18 @@ public class ArrayDictionary implements Dictionary {
         return true;
     }
 
-    // Delete the entry with the given key
+    // Delete the entry with the given key from the dictionary
     // Return true if an entry is deleted, false otherwise
     @Override
     public boolean remove(int key) {
+        // homework
+        return false;
+    }
+
+    // Return true when the dictionary contains an entry
+    // with the key
+    @Override
+    public boolean contains(int key) {
         // homework
         return false;
     }
@@ -65,14 +73,8 @@ public class ArrayDictionary implements Dictionary {
     // Return null if no entry exists with the given key
     @Override
     public Integer get(int key) {
-        // homework
+        // NOT IMPLEMENTED
         return null;
-    }
-
-    @Override
-    public boolean contains(int key) {
-        // not implemented
-        return false;
     }
 
     @Override

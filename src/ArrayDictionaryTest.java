@@ -15,16 +15,13 @@ public class ArrayDictionaryTest {
 
     @Test
     public void remove() {
-        assertTrue(false);  // place holder
-    }
-
-    @Test
-    public void get() {
+        // homework
         assertTrue(false);  // place holder
     }
 
     @Test
     public void contains() {
+        // homework
         assertTrue(false);  // place holder
     }
 }
