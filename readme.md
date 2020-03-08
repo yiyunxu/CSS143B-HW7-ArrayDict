@@ -1,6 +1,6 @@
-## Finish contains(key) and remove(key) for the ArrayDictionary class with tests (30pt)
+## Finish contains(key) and remove(key) for the ArrayDictionary class with tests (20pt)
 
-### (15pt) Finish the following functions for the ArrayDictionary
+### (10pt) Finish the following functions for the ArrayDictionary
 
 ```java
     // Delete the entry with the given key from the dictionary
@@ -21,7 +21,7 @@
 ```
 
 
-### (15pt) Add unit tests for remove(key) and get(key)
+### (10pt) Add unit tests for remove(key) and get(key)
 
 #### For contains(key), the following cases are required:
 
