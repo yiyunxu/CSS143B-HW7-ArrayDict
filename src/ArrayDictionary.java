@@ -60,18 +60,15 @@ public class ArrayDictionary implements Dictionary {
     }
 
     @Override
-    public boolean get(int key, int value) {
-        return false;
+    public Integer get(int key) {
+        // homework
+        return null;
     }
 
     @Override
     public boolean contains(int key) {
+        // homework
         return false;
-    }
-
-    @Override
-    public void traverse() {
-
     }
 
     @Override
