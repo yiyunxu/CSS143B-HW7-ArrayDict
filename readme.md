@@ -50,7 +50,7 @@ set 5:
 - dictionary<int, int>, capacity 3, init values {0:103, 1:105, 2:206, 4:407}, key=7 returns false 
 - dictionary<int, int>, capacity 3, init values {0:103, 1:105, 2:206, 4:407}, key=8 returns false 
 
-#### For delete(key),  the following cases are required:
+#### For remove(key), the following cases are required:
 
 - empty dictionary
 - key exists in a dictionary that has no collision
