@@ -21,7 +21,7 @@
 ```
 
 
-### (10pt) Add unit tests for remove(key) and get(key)
+### (10pt) Add unit tests for remove(key) and contains(key)
 
 #### For contains(key), the following cases are required:
 
