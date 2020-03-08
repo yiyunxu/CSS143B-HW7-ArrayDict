@@ -1,9 +1,9 @@
-## Finish contain(key) and remove(key) for the ArrayDictionary class with tests (30pt)
+## Finish contains(key) and remove(key) for the ArrayDictionary class with tests (30pt)
 
 ### (15pt) Finish the following functions for the ArrayDictionary
 
 ```java
-    // Delete the entry with the given key
+    // Delete the entry with the given key from the dictionary
     // Return true if an entry is deleted, false otherwise
     @Override
     public boolean remove(int key) {
@@ -11,20 +11,19 @@
         return false;
     }
 
-    // Return the entry value of the given key
-    // Return null if no entry exists with the given key
+    // Return true when the dictionary contains an entry
+    // with the key
     @Override
-    public Integer get(int key) {
+    public boolean contains(int key) {
         // homework
-        return null;
+        return false;
     }
 ```
 
 
-
 ### (15pt) Add unit tests for remove(key) and get(key)
 
-#### For contain(key), the following cases are required:
+#### For contains(key), the following cases are required:
 
 set 1:
 - empty dictionary<int, int>, contain returns false with key -1 
